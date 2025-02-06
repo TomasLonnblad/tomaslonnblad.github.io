@@ -3,7 +3,7 @@ import WebGL from 'three/addons/capabilities/WebGL.js';
 if ( WebGL.isWebGL2Available() ) {
 
 
-	Hi
+	<h1>Hi</h1>
 	animate();
 
 } else {
