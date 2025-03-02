@@ -1,0 +1,11 @@
+Model Information:
+* title:	Collegiata di San Candido
+* source:	https://sketchfab.com/3d-models/collegiata-di-san-candido-0e8e8a59aa8649fcb520b9992cc2cd4a
+* author:	archeologya (https://sketchfab.com/archeologya)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Collegiata di San Candido" (https://sketchfab.com/3d-models/collegiata-di-san-candido-0e8e8a59aa8649fcb520b9992cc2cd4a) by archeologya (https://sketchfab.com/archeologya) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
