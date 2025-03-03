@@ -1,0 +1,11 @@
+Model Information:
+* title:	Leone duomo di Bolzano / Bozen
+* source:	https://sketchfab.com/3d-models/leone-duomo-di-bolzano-bozen-1f135caa4dd14de9a13394a15c178cf4
+* author:	archeologya (https://sketchfab.com/archeologya)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Leone duomo di Bolzano / Bozen" (https://sketchfab.com/3d-models/leone-duomo-di-bolzano-bozen-1f135caa4dd14de9a13394a15c178cf4) by archeologya (https://sketchfab.com/archeologya) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
