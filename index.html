@@ -46,6 +46,44 @@
 
         </head>
 
+
+
+<head>
+    <title>DOM console.count() Method</title>
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>GeeksforGeeks</h1>
+    <h2>DOM console.count( ) Method</h2>
+
+    <p>
+        To view the message in the console
+        press the F12 key on your keyboard.
+    </p>
+    <p>
+        To count the number of occurrences,
+        double click thebutton below:
+    </p><br>
+    <button ondblclick="count_console()">
+        Run Loop
+    </button>
+
+    <script>
+        function count_console() {
+            for (i = 0; i < 10; i++) {
+                console.count();
+            }
+        }
+    </script>
+</body>
+    
+    
 <body>
     <div class="container">
         <div class="counter">
