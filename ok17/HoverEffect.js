@@ -4,7 +4,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { CSS2DRenderer } from 'three/addons/renderers/CSS2DRenderer.js';
 // import { CSS2DRenderer, CSS2DObject } from './three/jsm/renderers/CSS2DRenderer.js';
 
-export default class WebGLRenderer {
+export default class HoverEffect {
   constructor(canvas) {
     this.canvas = canvas;
     this.init();
