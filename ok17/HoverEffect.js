@@ -43,9 +43,9 @@ export default class HoverEffect {
   }
 
   setCamera() {
-    this.camera = new THREE.PerspectiveCamera(90, this.viewport.aspectRatio, 1, 10000);
-    this.camera.position.set(10, 250, 400);
-    this.camera.lookAt(new THREE.Vector3(5, 190, 10));
+    this.camera = new THREE.PerspectiveCamera(45, this.viewport.aspectRatio, 1, 10000);
+    this.camera.position.set(0, 150, 200);
+    this.camera.lookAt(new THREE.Vector3(0, 20, 0));
   }
 
   setLight() {
