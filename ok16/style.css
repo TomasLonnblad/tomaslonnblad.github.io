@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+:root {
+  --transform: rotateY(45deg) rotate3d(0.9, 0, 1, 30deg) translateX(90px) translateZ(-80px);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  overflow: hidden;
+}
+.label {
+  display: none;
+  height: 14vh;
+}
+.hover {
+  display: block;
+}
+.label p {
+  transform: var(--transform);
+  margin-top: -100%;
+  padding: .8rem 2rem;
+  border-radius: 30px;
+  box-shadow: 6px -6px rgba(0, 0, 0, .5);
+  background: #C4302B;
+  color: #FFF;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  animation: bounce .8s linear infinite;
+}
+.label p::after {
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 50%;
+  margin-left: -20px;
+  border: 15px solid transparent;
+  border-top: 15px solid #C4302B;
+  content: "";
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0px) var(--transform);
+  }
+  50% {
+    transform: translateY(20px) var(--transform);
+  }
+  100% {
+    transform: translateY(0px) var(--transform);
+  }
+}
