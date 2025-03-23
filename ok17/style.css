@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 :root {
   --transform: rotateY(45deg) rotate3d(0.9, 0, 1, 30deg) translateX(90px) translateZ(-80px);
 }
