@@ -9,8 +9,8 @@ import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/l
 const scene = new THREE.Scene();
 //create a new camera with positions and angles
 
-//const camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000);
-const camera = new THREE.PerspectiveCamera( fov, aspect, near, far );
+const camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000);
+//const camera = new THREE.PerspectiveCamera( fov, aspect, near, far );
 	camera.position.set( 0, 13, 20 );
 
 	const controls = new OrbitControls( camera, canvas );
