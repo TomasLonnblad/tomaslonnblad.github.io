@@ -13,8 +13,8 @@ const camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerH
 //const camera = new THREE.PerspectiveCamera( fov, aspect, near, far );
 	//camera.position.set( 0, 13, 20 );
 
-	const controls = new OrbitControls( camera, canvas );
-	controls.target.set( 0, 5, 0 );
+	//const controls = new OrbitControls( camera, canvas );
+	//controls.target.set( 0, 5, 0 );
 //Keep track of the mouse position, so we can make the eye move
 let mouseX = window.innerWidth / 2;
 let mouseY = window.innerHeight / 2;
