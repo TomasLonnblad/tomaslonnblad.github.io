@@ -18,8 +18,18 @@
   <!-- then looked it up-->
   <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inert-->
   <ul id="cats-menu" inert="inert">
+
+
+
+
+	    
+      <button class="toggler" disabled="disabled" aria-hidden="true" aria-label="open lion submenu" aria-expanded="false" aria-controls="lion-submenu">➜</button>
+    </li>
     <li class="visual-item" style="--i: 0">
-      <!-- in a real project, this would be an SVG--><span class="ico" aria-hidden="true">💯</span><span>OBJ Model</span>
+      <!-- in a real project, this would be an SVG--><span class="ico" aria-hidden="true">💯</span><span><a href="https://tomaslonnblad.github.io/ok18/index.html" style="text-decoration:none;">OBJ Model</a>   </span>
+      <button class="toggler" disabled="disabled" aria-hidden="true" aria-label="open leopard submenu" aria-expanded="false" aria-controls="leopard-submenu">➜</button>
+   
+	    
       <!-- this would open a submenu if we had one-->
       <!-- but we don't, so it's disabled -->
       <!-- and hdden from screenreaders-->
