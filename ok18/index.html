@@ -36,10 +36,16 @@
 	scene.add( floor );
 	
 	//character
-	const gltfLoader = new GLTFLoader();
-	gltfLoader.load( './character.glb', function (gltf) {
-	character = gltf.scene;
-
+	//const gltfLoader = new GLTFLoader();
+	//gltfLoader.load( './character.glb', function (gltf) {
+	//character = gltf.scene;
+loader.load(
+  `./models/${objToRender}/scene.glb`,
+  function (gltf) {
+    //If the file is loaded, add it to the scene
+    object = gltf.scene;
+    scene.add(object);
+  },
 	
 
 	scene.add( character );
