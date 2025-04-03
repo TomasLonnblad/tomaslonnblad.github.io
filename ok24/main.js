@@ -9,7 +9,8 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setClearColor(0x000000);
 renderer.setPixelRatio(window.devicePixelRatio);
 
-
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
 document.body.appendChild(renderer.domElement);
 
@@ -61,7 +62,7 @@ loader.load('scene.gltf', (gltf) => {
   mesh.position.set(0, 1.05, -1);
   scene.add(mesh);
 
-  document.getElementById('progress-container').style.display = 'none';
+  document.getElementById('').style.display = 'none';
 }, (xhr) => {
   console.log(`loading ${xhr.loaded / xhr.total * 100}%`);
 }, (error) => {
