@@ -16,14 +16,20 @@ document.body.appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
 
-const camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 1, 1000);
-camera.position.set(0, 75, 160);
+  // Set up camera
+  const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 1000);
+  camera.position.set(750, 75, 160);
+
+
+  
+
+
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enablePan = true;
-controls.minDistance = 5;
-controls.maxDistance = 160;
+controls.minDistance = 780;
+controls.maxDistance = 800;
 controls.minPolarAngle = 0.5;
 controls.maxPolarAngle = 1.5;
 controls.autoRotate = false;
