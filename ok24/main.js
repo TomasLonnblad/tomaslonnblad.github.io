@@ -16,12 +16,12 @@ document.body.appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
 
-const camera = new THREE.PerspectiveCamera(19, window.innerWidth / window.innerHeight, 1, 1000);
-camera.position.set(4, 5, 11);
+const camera = new THREE.PerspectiveCamera(6, window.innerWidth / window.innerHeight, 1, 1000);
+camera.position.set(4, 5, 191);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
-controls.enablePan = false;
+controls.enablePan = true;
 controls.minDistance = 5;
 controls.maxDistance = 20;
 controls.minPolarAngle = 0.5;
@@ -37,12 +37,12 @@ const groundMaterial = new THREE.MeshStandardMaterial({
   side: THREE.DoubleSide
 });
 const groundMesh = new THREE.Mesh(groundGeometry, groundMaterial);
-groundMesh.castShadow = false;
+groundMesh.castShadow = true;
 groundMesh.receiveShadow = true;
 scene.add(groundMesh);
 
 const spotLight = new THREE.SpotLight(0xffffff, 3000, 100, 0.22, 1);
-spotLight.position.set(0, 25, 0);
+spotLight.position.set(0, 30, 0);
 spotLight.castShadow = true;
 spotLight.shadow.bias = -0.0001;
 scene.add(spotLight);
@@ -59,7 +59,7 @@ loader.load('scene.gltf', (gltf) => {
     }
   });
 
-  mesh.position.set(0, 1.05, -1);
+  mesh.position.set(0, 0.02, -1);
   scene.add(mesh);
 
   document.getElementById('').style.display = 'none';
