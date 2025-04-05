@@ -16,14 +16,14 @@ document.body.appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
 
-const camera = new THREE.PerspectiveCamera(21, window.innerWidth / window.innerHeight, 1, 1000);
-camera.position.set(4, 5, 191);
+const camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 1, 1000);
+camera.position.set(0, 75, 160);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enablePan = true;
 controls.minDistance = 5;
-controls.maxDistance = 20;
+controls.maxDistance = 160;
 controls.minPolarAngle = 0.5;
 controls.maxPolarAngle = 1.5;
 controls.autoRotate = false;
@@ -41,8 +41,8 @@ groundMesh.castShadow = true;
 groundMesh.receiveShadow = true;
 scene.add(groundMesh);
 
-const spotLight = new THREE.SpotLight(0xffffff, 3000, 100, 0.22, 1);
-spotLight.position.set(0, 30, 0);
+const spotLight = new THREE.SpotLight(0xffffff, 90000, 3000, 9.22, 3);
+spotLight.position.set(10, 10, 10);
 spotLight.castShadow = true;
 spotLight.shadow.bias = -0.0001;
 scene.add(spotLight);
