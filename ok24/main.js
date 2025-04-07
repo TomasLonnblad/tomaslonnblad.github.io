@@ -21,9 +21,6 @@ const scene = new THREE.Scene();
   camera.position.set(750, 75, 160);
 
 
-  
-
-
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
@@ -32,7 +29,7 @@ controls.minDistance = 780;
 controls.maxDistance = 800;
 controls.minPolarAngle = 0.5;
 controls.maxPolarAngle = 1.5;
-controls.autoRotate = false;
+controls.autoRotate = true;
 controls.target = new THREE.Vector3(0, 1, 0);
 controls.update();
 
