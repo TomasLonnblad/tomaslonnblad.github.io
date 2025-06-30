@@ -17,7 +17,7 @@ document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 
   // Set up camera
-  const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1000);
+  const camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 1000);
   camera.position.set(2, 2, 2);
 
 
@@ -33,7 +33,7 @@ controls.autoRotate = true;
 controls.target = new THREE.Vector3(0, 1, 0);
 controls.update();
 
-const groundGeometry = new THREE.PlaneGeometry(0, 0, 0, 32);
+const groundGeometry = new THREE.PlaneGeometry(0, 0, 0, 0);
 groundGeometry.rotateX(-Math.PI / 2);
 const groundMaterial = new THREE.MeshStandardMaterial({
   color: 0x555555,
