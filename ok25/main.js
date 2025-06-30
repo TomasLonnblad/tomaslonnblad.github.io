@@ -17,7 +17,7 @@ document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 
   // Set up camera
-  const camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 1000);
+  const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1000);
   camera.position.set(2, 2, 2);
 
 
@@ -25,8 +25,8 @@ const scene = new THREE.Scene();
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enablePan = true;
-controls.minDistance = 9;
-controls.maxDistance = 10;
+controls.minDistance = 3;
+controls.maxDistance = 4;
 controls.minPolarAngle = 0.5;
 controls.maxPolarAngle = 1.5;
 controls.autoRotate = true;
