@@ -18,7 +18,7 @@ const scene = new THREE.Scene();
 
   // Set up camera
   const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 1000);
-  camera.position.set(2, 10, 70);
+  camera.position.set(5, 15, 70);
 
 
 
@@ -26,7 +26,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enablePan = true;
 controls.minDistance = 40;
-controls.maxDistance = 41;
+controls.maxDistance = 20;
 controls.minPolarAngle = 0.5;
 controls.maxPolarAngle = 1.5;
 controls.autoRotate = true;
