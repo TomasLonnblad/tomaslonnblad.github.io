@@ -18,22 +18,22 @@ const scene = new THREE.Scene();
 
   // Set up camera
   const camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 1000);
-  camera.position.set(2, 2, 2);
+  camera.position.set(15, 15, 160);
 
 
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.enablePan = true;
-controls.minDistance = 3;
-controls.maxDistance = 4;
+controls.minDistance = 40;
+controls.maxDistance = 40;
 controls.minPolarAngle = 0.5;
 controls.maxPolarAngle = 1.5;
 controls.autoRotate = true;
 controls.target = new THREE.Vector3(0, 1, 0);
 controls.update();
 
-const groundGeometry = new THREE.PlaneGeometry(0, 0, 0, 0);
+const groundGeometry = new THREE.PlaneGeometry(10, 10, 10, 32);
 groundGeometry.rotateX(-Math.PI / 2);
 const groundMaterial = new THREE.MeshStandardMaterial({
   color: 0x555555,
