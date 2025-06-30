@@ -53,7 +53,7 @@ scene.add(spotLight);
 const loader = new GLTFLoader().setPath('public/millennium_falcon2/');
 loader.load('scene.glb', (gltf) => {
   console.log('loading model');
-  const mesh = glb.scene;
+  const mesh = gltf.scene;
 
   mesh.traverse((child) => {
     if (child.isMesh) {
