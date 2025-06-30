@@ -33,8 +33,7 @@ controls.autoRotate = true;
 controls.target = new THREE.Vector3(0, 1, 0);
 controls.update();
 
-const groundGeometry = new THREE.PlaneGeometry(20, 20, 32, 32);
-groundGeometry.rotateX(-Math.PI / 2);
+
 const groundMaterial = new THREE.MeshStandardMaterial({
   color: 0x555555,
   side: THREE.DoubleSide
