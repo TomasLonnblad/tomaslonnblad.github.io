@@ -17,8 +17,8 @@ document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 
   // Set up camera
-  const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 1000);
-  camera.position.set(5, 5, 20);
+  const camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 1000);
+  camera.position.set(2, 2, 2);
 
 
 
