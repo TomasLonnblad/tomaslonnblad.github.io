@@ -1,11 +1,11 @@
 Model Information:
-* title:	Transformers Alliance Megatron
-* source:	https://sketchfab.com/3d-models/transformers-alliance-megatron-4ff96191e1f14dbfa5647a8eec7b8094
-* author:	OrangeSauceu (https://sketchfab.com/orangesauceu)
+* title:	Westbury on Severn Font
+* source:	https://sketchfab.com/3d-models/westbury-on-severn-font-3a4648194400448d92fb54cfc0adc181
+* author:	Shiro Morturn (https://sketchfab.com/morturn)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Transformers Alliance Megatron" (https://sketchfab.com/3d-models/transformers-alliance-megatron-4ff96191e1f14dbfa5647a8eec7b8094) by OrangeSauceu (https://sketchfab.com/orangesauceu) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Westbury on Severn Font" (https://sketchfab.com/3d-models/westbury-on-severn-font-3a4648194400448d92fb54cfc0adc181) by Shiro Morturn (https://sketchfab.com/morturn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
